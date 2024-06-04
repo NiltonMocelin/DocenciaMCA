@@ -1,0 +1,32 @@
+*** ev.msg.__dict__: ***
+
+packet in 0000000000000003 d6:db:3d:ab:52:c8 56:ba:8a:9d:46:f9 2
+{'datapath': <ryu.controller.controller.Datapath object at 0x7f80770e0ca0>, 'version': 4, 'msg_type': 10, 'msg_len': 140, 'xid': 0, 'buf': b'\x04\n\x00\x8c\x00\x00\x00\x00\xff\xff\xff\xff\x00b\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x0c\x80\x00\x00\x04\x00\x00\x00\x01\x00\x00\x00\x00\x00\x00\xd6\xdb=\xabR\xc8V\xba\x8a\x9dF\xf9\x08\x00E\x00\x00T\xa2\x07@\x00@\x01\x84\x9f\n\x00\x00\x01\n\x00\x00\x02\x08\x00\xa6\x90\x0eP\x00\x01\xf8\'Yf\x00\x00\x00\x00\'\xbd\x0b\x00\x00\x00\x00\x00\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567', 'buffer_id': 4294967295, 'total_len': 98, 'reason': 0, 'table_id': 0, 'cookie': 0, 'match': OFPMatch(oxm_fields={'in_port': 1}), 'data': b'\xd6\xdb=\xabR\xc8V\xba\x8a\x9dF\xf9\x08\x00E\x00\x00T\xa2\x07@\x00@\x01\x84\x9f\n\x00\x00\x01\n\x00\x00\x02\x08\x00\xa6\x90\x0eP\x00\x01\xf8\'Yf\x00\x00\x00\x00\'\xbd\x0b\x00\x00\x00\x00\x00\x10\x11\x12\x13\x14\x15\x16\x17\x18\x19\x1a\x1b\x1c\x1d\x1e\x1f !"#$%&\'()*+,-./01234567'}
+
+*** json formated: ***
+	
+{
+   "OFPPacketIn": {
+      "buffer_id": 4294967295,
+      "cookie": 0,
+      "data": "////////QqiqVaLMCAYAAQgABgQAAUKoqlWizAoAAAEAAAAAAAAKAAAC",
+      "match": {
+         "OFPMatch": {
+            "length": 12,
+            "oxm_fields": [
+               {
+                  "OXMTlv": {
+                     "field": "in_port",
+                     "mask": null,
+                     "value": 1
+                  }
+               }
+            ],
+            "type": 1
+         }
+      },
+      "reason": 0,
+      "table_id": 0,
+      "total_len": 42
+   }
+}
